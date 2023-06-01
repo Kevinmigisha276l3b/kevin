@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    height: 280px;
+    width: 230px;
+    background: transparent;
+    box-shadow: 0px 8px 16px 0px;
+
+}
+input{
+    position: absolute;
+    left: 8%;
+    padding: 8px 10px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px;
+    border-radius: 5px;
+    outline: none;
+}
+input:hover{
+    transform: scale(1.1);
+}
+.btn{
+    position: absolute;
+    left: 30%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.btn:hover{
+        transform: scale(1.1);
+        background: darkcyan;
+        color: white;
+        transition: 1s;
+}
+h1{
+    position: relative;
+    left: 25%;
+    top: 6px;
+    color: orangered;
+}
+.ball{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: green;
+    left: 42%;
+    top: 25%;
+    z-index: -10;
+    filter: blur(2px);
+}
+.ben{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: rgb(206, 131, 143);
+    left: 59%;
+    top: 69%;
+    z-index: -10;
+}
+.ring1{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: transparent;
+    border-radius: 50%;
+    border: 5px solid darkcyan;
+    left: 40%;  
+    top: 20%;
+    border-bottom: none;
+    border-right: none;
+    animation: 1s ring infinite;
+}
+@keyframes ring{
+    0%{
+        rotate: 360deg;
+    }
+}
+.ring2{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: transparent;
+    border-radius: 50%;
+    border: 5px solid red;
+    top: 14%;
+    left: 43%;
+    border-bottom: none;
+    border-right: none;
+    animation: 1s ring infinite;
+}
+.ring3{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: transparent;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    top: 19%;
+    left: 47%;
+    border-bottom: none;
+    border-right: none;
+    animation: 1s ring infinite;
+}
+.base{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: purple;
+    top: 48%;
+    left: 37%;
+    animation: 3s base infinite;
+}
+@keyframes base{
+    0%{
+        transform: translateX(400px);
+    }
+    }
+
+

@@ -1,0 +1,49 @@
+form{
+    position: absolute;
+    height: 460px;
+    width: 260px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 8px 16px 0px white;
+    border-radius: 12px;
+    left: 40%;
+    top: 22%;
+    border: none;
+    outline: none;
+}
+body{
+    background: url(./kio.jpg);
+}
+input:hover{
+    transform: scale(1.1);
+}
+H1{
+    position: absolute;
+    font-family: cursive;
+    color: orangered;
+    font-weight: bold;
+    left: 15%;
+}
+input{
+    position: absolute;
+    left: 30px;
+    box-shadow: 0px 8px 16px 0px  rgba(0, 0, 0, 0.384);
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+label{
+    position: absolute;
+    left: 20%;
+}
+.btn{
+    position: absolute;
+    padding: 7px 20px;
+    left: 30%;
+    top: 90%;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background: orangered;
+    color: black;
+}

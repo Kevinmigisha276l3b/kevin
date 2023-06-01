@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background: darkcyan; */
+}
+.loop{
+    position: absolute;
+    font-size: 10px;
+    top: 80%;
+    right: 27%;
+    background: transparent;
+    border: none;
+    box-shadow: 0px 8px 16px 0px white;
+}
+.gig{
+    position: absolute;
+    left: 53%;
+
+}
+.ben{
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100px;
+    box-shadow: 8px 8px 8px ;
+}
+footer{
+    position: absolute;
+    top: 660%;
+    font-weight: bold;
+    font-size: 24px;
+    left: 30%;
+}
+h1{
+    /* position: relative; */
+    color: green;
+    text-shadow: 20px 20px 20px;
+    text-decoration: double;
+    font-size: 70px;
+    right: 30%;
+}
+h2{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+}
+.medy{
+    position: absolute;
+    margin-left: 80px;
+    top: 10%;
+}
+a{
+    text-decoration: none;
+    margin: 35px;
+    font-size: 20px;
+    position: relative; 
+    color: orangered;
+    text-decoration: double;
+    font-family: cursive;   
+}
+a:hover{
+    transition: 0s;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid orangered;
+    font-family: cursive;
+}
+.menu{
+    position: absolute;
+    margin-top: 40px;
+    left: 27%;
+    
+}
+.move{
+    position: absolute;
+    left: 98%;
+    padding: 10px 38px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 8px 16px 0px;
+    
+}
+.move:hover{
+    background: orangered;
+}
+form{
+    position: absolute;
+    background: darkcyan;
+    height: 220px;
+    width: 250px;
+    top: 30%;
+    margin-left: 950px;
+    border-radius: 0px 50px 0px 50px ;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.445);
+    opacity: 2px;
+    transition: .3s ease-in-out;
+}
+form:hover{  
+    transform: scale(1.1);   
+}
+input{
+    background: transparent;
+    border: none;
+    margin-left: 23px;
+    outline: none;
+    margin-top: 25px;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+}
+::placeholder{
+    color: wheat;
+    position: absolute;
+    left: 30%;
+    font-size: 15px;
+}
+.bs{
+    padding: 10px 25px;
+    margin-left: 70px;
+    border-radius: 16px;
+    background: grey;
+    color: white;
+    cursor: pointer;
+}
+.bs:hover{
+    background: orange;
+    color: black;
+}
+a button:hover{
+    background: orange;
+}
+img{
+    position: relative;
+    margin-top: 120px;
+    box-shadow: 6px 6px 6px  rgb(31, 30, 30);
+}
+span{
+    position: absolute;
+    font-size: 70px;
+    margin-left: 840px;
+    top: 486px;
+    color: orangered;
+    /* font-family: cursive; */
+}
+.bye{
+    height: 500px;
+}
+span1{
+    position: absolute;
+    font-size: 70px;
+    margin-left: 840px;
+    top: 493px;
+    color: green;
+    font-family: cursive;
+}
+.ball{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: green;
+    left: 94%;
+    animation: ball 4s infinite;
+}
+@keyframes ball{
+    0%{
+        transform: translateY(900px);
+    }
+}
+#ashimwe{
+    position: absolute;
+    margin-left: 200px;
+    top: 88%;
+    font-family: cursive;
+    font-size: 20px;
+}
+#kevin{
+    position:absolute;
+    left:17%;
+    top: 92%;
+    font-size: 17px;
+    padding: 7px 4px;
+    border-radius: 12px;
+    background: darkcyan;
+    color: white;
+    box-shadow: 7px 7px 7px 7px;
+    font-family: cursive;
+    transition: .1s ease-in-out;
+}
+#kevin:hover{
+    transform:scale(1.1);
+}
+.hey{
+    width: 730px;
+    height: 450px;
+}
+#bya{
+    position: absolute;
+    margin-left: 200px;
+    top: 187%;
+    font-family: cursive;
+    font-size: 20px;
+}
+#keV{
+    position:absolute;
+    left:17%;
+    top: 192%;
+    font-size: 17px;
+    padding: 7px 4px;
+    border-radius: 12px;
+    background: darkcyan;
+    color: white;
+    box-shadow: 7px 7px 7px 7px;
+    font-family: cursive;
+    transition: .1s ease-in-out;
+}
+#keV:hover{
+    transform: scale(1.1);
+}
+#byaje{
+    position: absolute;
+    margin-left: 200px;
+    top: 292%;
+    font-family: cursive;
+    font-size: 20px;
+}
+#come{
+    position:absolute;
+    left:17%;
+    top: 297%;
+    font-size: 17px;
+    padding: 7px 4px;
+    border-radius: 12px;
+    background: darkcyan;
+    color: white;
+    box-shadow: 7px 7px 7px 7px;
+    font-family: cursive;
+    transition: .1s ease-in-out;
+}
+#come:hover{
+    transform: scale(1.1);
+}
+i{
+    color: green;
+    font-size: 20px;
+}
+#fuck{
+    position: absolute;
+    margin-left: 200px;
+    top: 390%;
+    font-family: cursive;
+    font-size: 20px;
+}
+#you{
+    position:absolute;
+    left:17%;
+    top: 397%;
+    font-size: 17px;
+    padding: 7px 4px;
+    border-radius: 12px;
+    background: darkcyan;
+    color: white;
+    box-shadow: 7px 7px 7px 7px;
+    font-family: cursive;
+    transition: .1s ease-in-out;
+}
+#you:hover{
+    transform: scale(1.1);
+}
+.m{
+    height: 200px;
+    width: 200px;
+    background: white;
+    position: absolute;
+    left: 2%;
+    box-shadow: 4px 4px 4px 4px;
+}
+.m:hover{
+    transform: scale(1.1);
+}
+.n{
+    height: 200px;
+    width: 200px;
+    background: white;
+    position: absolute;
+    left: 20%; 
+    box-shadow: 4px 4px 4px 4px;
+}
+.n:hover{
+    transform: scale(1.1);
+}
+.b{
+    height: 200px;
+    width: 200px;
+    background: white;
+    position: absolute;
+    left: 40%;
+    box-shadow: 4px 4px 4px 4px;
+}
+.b:hover{
+    transform: scale(1.1);
+}
+.v{
+    height: 200px;
+    width: 200px;
+    background: white;
+    position: absolute;
+    left: 60%;
+    box-shadow: 4px 4px 4px 4px; 
+}
+.v:hover{
+    transform: scale(1.1);
+}
+.c{
+    height: 200px;
+    width: 200px;
+    background: white;
+    position: absolute;
+    left: 80%;
+    box-shadow: 4px 4px 4px 4px;
+}
+.c:hover{
+    transform: scale(1.1);
+}
+#kol{
+    position: absolute;
+    font-size: 30px;
+    font-family: cursive;
+    color: darkcyan;
+    left: 30%;
+}
+.qwe{
+    position: absolute;
+    top: 650%;
+    left: 4%;
+    font-family: cursive;
+    font-size: 20px;
+    color: green;
+}
+.min{
+    position: absolute;
+    top: 650%;
+    left: 21%;
+    font-family: cursive;
+    font-size: 20px;
+    color: green; 
+}
+.olp{
+    position: absolute;
+    top: 650%;
+    left: 40%;
+    font-family: cursive;
+    font-size: 20px;
+    color: green; 
+}
+.xcv{
+    position: absolute;
+    top: 650%;
+    left: 61%;
+    font-family: cursive;
+    font-size: 20px;
+    color: green; 
+}
+.full{
+    position: absolute;
+    top: 650%;
+    left: 82%;
+    font-family: cursive;
+    font-size: 20px;
+    color: green; 
+}
+.asd{
+    position: absolute;
+    top: 643%;
+    left: 4%;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered; 
+}
+.max{
+    position: absolute;
+    top: 643%;
+    left: 21%;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.Rip{
+    position: absolute;
+    top: 643%;
+    left: 40%;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.verb{
+    position: absolute;
+    top: 643%;
+    left: 61%;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.os{
+    position: absolute;
+    top: 643%;
+    left: 82%;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.ndere{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    bottom: 2%;
+}
+.guy{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    bottom: 2%;
+}
+.avoid{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    bottom: 2%;
+}
+.drugs{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    bottom: 2%;
+}
+.sida{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    bottom: 2%;
+}
+.week{
+    color: darkcyan;
+    position: absolute;
+    left: 60%;
+    top: 110%;
+    font-size: 30px;
+}
+#hirwa{
+    position: absolute;
+    font-size: 70px;
+    font-family: cursive;
+    color: orangered;
+    left: 60%;
+    top: 360%;
+
+}
